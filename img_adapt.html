@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+      .box{
+        border: 2px solid teal;
+        width: 80vw;
+        height: 320px;
+        overflow: hidden;
+      }
+      
+</style> 
+
+<body>
+    <!-- <div class="box">
+
+        <img src="./img/400.png"  class="descktop" alt="">
+        <img src="./img/700.jpg"   class="tablet"  alt="">
+        <img src="./img/1000.jpg"  class="mobile"  alt="">
+    </div>
+   -->
+<div class="box">
+   <picture>
+    <source srcset="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1594727667.20625677!400x400!85.png"
+    media="(max-width: 430px)"
+    >
+    <source srcset="https://razor.com/wp-content/uploads/2023/06/C45_Product.png"
+    media="(max-width: 768px)"
+    >
+    <source srcset="https://razor.com/wp-content/uploads/2022/09/A_Kick_SharkCamo_Product.png"
+    media="(max-width: 1000px)"
+    >
+     
+    <img src="./img/1000.jpg" alt="">
+   </picture>
+</div>
+
+
+</body>
+</html>
